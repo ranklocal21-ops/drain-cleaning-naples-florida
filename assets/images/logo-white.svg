@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 76" fill="none" role="img" aria-label="Naples Drain Experts Logo">
+  <defs>
+    <linearGradient id="wPipeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="wWaterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="wSwooshGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- ==================== EMBLEM ICON ==================== -->
+  <g transform="translate(6, 4)">
+    <!-- Outer Dynamic Swoosh Arc -->
+    <path d="M 36,5 C 55,5 66,16 66,32 C 66,42 61,50 53,56 C 45,62 34,65 24,63 C 16,61 10,55 8,47" 
+          stroke="url(#wSwooshGrad)" stroke-width="4.2" stroke-linecap="round" fill="none" />
+    <path d="M 18,11 C 23,7 29,5 36,5" 
+          stroke="url(#wSwooshGrad)" stroke-width="3" stroke-linecap="round" fill="none" />
+
+    <!-- Drain Outer Rim (Perspective Ellipse) -->
+    <ellipse cx="33" cy="46" rx="23" ry="11" fill="#0284C7" />
+    <!-- Drain Middle Rim -->
+    <ellipse cx="33" cy="46" rx="20.5" ry="9.5" fill="#070F1E" />
+    <!-- Drain Basin Inner -->
+    <ellipse cx="33" cy="46.5" rx="18" ry="8" fill="#0284C7" />
+    
+    <!-- Concentric Drain Grate Holes -->
+    <circle cx="33" cy="46.5" r="1.3" fill="#FFFFFF" />
+    <circle cx="27" cy="46.5" r="1.1" fill="#FFFFFF" />
+    <circle cx="39" cy="46.5" r="1.1" fill="#FFFFFF" />
+    <circle cx="30" cy="44.2" r="1.0" fill="#FFFFFF" />
+    <circle cx="36" cy="44.2" r="1.0" fill="#FFFFFF" />
+    <circle cx="30" cy="48.8" r="1.0" fill="#FFFFFF" />
+    <circle cx="36" cy="48.8" r="1.0" fill="#FFFFFF" />
+
+    <!-- Water Splash Droplets (Left) -->
+    <path d="M 24,24 C 23,20 27,17 28,21 C 29,24 27,27 24,24 Z" fill="#38BDF8" />
+    <path d="M 20,30 C 17,27 21,24 23,27 C 24,29 22,32 20,30 Z" fill="#FFFFFF" />
+    <path d="M 17,37 C 14,35 17,32 19,34 C 21,36 19,39 17,37 Z" fill="#38BDF8" />
+    <circle cx="31" cy="19" r="1.8" fill="#38BDF8" />
+
+    <!-- Plumbing Pipe Elbow -->
+    <rect x="42" y="3" width="16" height="5.5" rx="1.5" fill="#38BDF8" />
+    <rect x="43" y="4.5" width="14" height="1" fill="#FFFFFF" opacity="0.9" />
+    <rect x="43" y="8" width="14" height="4.5" rx="1" fill="#0284C7" />
+
+    <!-- Elbow Body -->
+    <path d="M 43,12 
+             L 43,21 
+             C 43,27 40,31 35,33 
+             L 32,34.5 
+             C 30,35.5 30,37 32,38 
+             L 34,38
+             C 42,37 49,31 49,21 
+             L 49,12 
+             Z" 
+          fill="url(#wPipeGrad)" />
+    
+    <!-- Pipe Highlight Curve -->
+    <path d="M 46.5,13 L 46.5,20 C 46.5,24.5 43,27.5 38,29.5 L 34,31" 
+          stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.95" />
+
+    <!-- Water Flow from Pipe Spout -->
+    <path d="M 32,35 
+             C 30,38 31,43 33,47 
+             C 35,47 36.5,44 36.5,40 
+             C 36.5,37 34.5,35 32,35 Z" 
+          fill="url(#wWaterGrad)" />
+    <!-- Water Stream Highlight -->
+    <path d="M 32.5,37 C 32,40 32.5,43 34,45" 
+          stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- ==================== LOGO TYPOGRAPHY ==================== -->
+  <g transform="translate(84, 14)">
+    <!-- Top Line: NAPLES DRAIN in pure crisp white -->
+    <text x="0" y="27" 
+          font-family="'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="26" 
+          font-weight="900" 
+          letter-spacing="-0.5" 
+          fill="#FFFFFF">
+      NAPLES<tspan fill="#38BDF8"> DRAIN</tspan>
+    </text>
+
+    <!-- Bottom Line: — EXPERTS — with Tapered Accent Wings -->
+    <!-- Left Wing (Tapered Wedge) -->
+    <polygon points="1,46 38,44 38,48 1,46" fill="#38BDF8" />
+    
+    <!-- Word: EXPERTS -->
+    <text x="46" y="50" 
+          font-family="'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="15" 
+          font-weight="900" 
+          letter-spacing="5" 
+          fill="#38BDF8">
+      EXPERTS
+    </text>
+
+    <!-- Right Wing (Tapered Wedge) -->
+    <polygon points="228,46 184,44 184,48 228,46" fill="#38BDF8" />
+  </g>
+</svg>

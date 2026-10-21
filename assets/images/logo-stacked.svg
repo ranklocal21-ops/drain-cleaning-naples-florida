@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none" role="img" aria-label="Drain Cleaning Expert Logo">
+  <defs>
+    <!-- Brand Color Gradients -->
+    <linearGradient id="pipeNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545" />
+      <stop offset="60%" stop-color="#071933" />
+      <stop offset="100%" stop-color="#051224" />
+    </linearGradient>
+    <linearGradient id="waterFlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="40%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <linearGradient id="swooshArc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- ==================== CIRCULAR EMBLEM BADGE ==================== -->
+  <g id="emblem">
+    <!-- Outer Dynamic Swoosh Ring -->
+    <!-- Main outer blue circular arc -->
+    <path d="M 255,40 C 345,40 405,100 405,185 C 405,230 385,270 345,300 C 300,335 235,348 175,338 C 125,330 85,295 72,250 C 65,225 65,195 75,170 C 80,158 90,140 102,126" 
+          stroke="url(#swooshArc)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    
+    <!-- Secondary inner swoosh highlight arc on top-left -->
+    <path d="M 145,78 C 178,54 220,42 265,42" 
+          stroke="url(#swooshArc)" stroke-width="9" stroke-linecap="round" fill="none" />
+
+    <!-- Drain Outer Perspective Rim (Ellipse) -->
+    <g id="drain-basin">
+      <!-- Outer Cyan Glow/Border -->
+      <ellipse cx="230" cy="270" rx="98" ry="46" fill="#0284C7" />
+      <!-- White Ring Spacer -->
+      <ellipse cx="230" cy="270" rx="88" ry="40" fill="#FFFFFF" />
+      <!-- Navy Deep Drain Basin -->
+      <ellipse cx="230" cy="272" rx="78" ry="34" fill="#071933" />
+
+      <!-- Concentric Drain Grate Holes -->
+      <!-- Center Hole -->
+      <ellipse cx="230" cy="273" rx="5" ry="4" fill="#FFFFFF" />
+      
+      <!-- Inner Ring of Holes -->
+      <ellipse cx="204" cy="273" rx="4.5" ry="3.5" fill="#FFFFFF" />
+      <ellipse cx="256" cy="273" rx="4.5" ry="3.5" fill="#FFFFFF" />
+      <ellipse cx="218" cy="264" rx="4" ry="3" fill="#FFFFFF" />
+      <ellipse cx="242" cy="264" rx="4" ry="3" fill="#FFFFFF" />
+      <ellipse cx="218" cy="282" rx="4.2" ry="3.2" fill="#FFFFFF" />
+      <ellipse cx="242" cy="282" rx="4.2" ry="3.2" fill="#FFFFFF" />
+      
+      <!-- Outer Ring of Holes -->
+      <ellipse cx="180" cy="273" rx="4" ry="3" fill="#FFFFFF" />
+      <ellipse cx="280" cy="273" rx="4" ry="3" fill="#FFFFFF" />
+      <ellipse cx="192" cy="263" rx="3.8" ry="2.8" fill="#FFFFFF" />
+      <ellipse cx="268" cy="263" rx="3.8" ry="2.8" fill="#FFFFFF" />
+      <ellipse cx="192" cy="283" rx="3.8" ry="2.8" fill="#FFFFFF" />
+      <ellipse cx="268" cy="283" rx="3.8" ry="2.8" fill="#FFFFFF" />
+      <ellipse cx="230" cy="254" rx="4.5" ry="2.8" fill="#FFFFFF" />
+      <ellipse cx="230" cy="292" rx="4.5" ry="2.8" fill="#FFFFFF" />
+    </g>
+
+    <!-- Water Splash Droplets (Left) -->
+    <!-- Droplet 1 (Top high splash) -->
+    <path d="M 175,138 C 168,118 194,106 202,124 C 206,134 195,148 175,138 Z" fill="#0284C7" />
+    <!-- Droplet 2 (Upper mid splash) -->
+    <path d="M 152,172 C 140,155 162,140 174,152 C 182,160 170,178 152,172 Z" fill="#38BDF8" />
+    <!-- Droplet 3 (Lower mid splash) -->
+    <path d="M 134,210 C 122,198 138,180 152,190 C 160,200 148,220 134,210 Z" fill="#0284C7" />
+    <!-- Droplet 4 (Drain basin splash) -->
+    <path d="M 158,236 C 148,228 158,216 168,222 C 175,228 168,240 158,236 Z" fill="#38BDF8" />
+
+    <!-- Drain Pipe (P-Trap Elbow) -->
+    <g id="pipe">
+      <!-- Top Pipe Flange / Collar -->
+      <rect x="290" y="60" width="80" height="18" rx="5" fill="#071933" />
+      <!-- White highlight stripe on collar -->
+      <rect x="296" y="69" width="68" height="3" rx="1.5" fill="#FFFFFF" opacity="0.85" />
+      <!-- Secondary Collar Band -->
+      <rect x="295" y="79" width="70" height="24" rx="4" fill="#0B2545" />
+
+      <!-- Main Elbow Body -->
+      <path d="M 295,103 
+               L 295,146 
+               C 295,178 280,200 248,210 
+               L 230,214 
+               C 222,216 220,224 225,230 
+               C 228,233 234,234 240,232
+               C 285,224 330,192 332,146 
+               L 332,103 
+               Z" 
+            fill="url(#pipeNavy)" />
+
+      <!-- Pipe Outer Outline / 3D Contour -->
+      <path d="M 332,103 L 332,146 C 330,192 285,224 240,232 C 234,234 228,233 225,230 C 220,224 222,216 230,214 L 248,210 C 280,200 295,178 295,146 L 295,103" 
+            stroke="#0284C7" stroke-width="3" fill="none" />
+
+      <!-- Glossy White Reflection Curve (Giving metallic depth) -->
+      <path d="M 318,107 L 318,145 C 318,170 300,188 274,196 L 246,204" 
+            stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.9" />
+    </g>
+
+    <!-- Water Stream Gushing from Pipe Mouth into Drain -->
+    <g id="water-stream">
+      <path d="M 228,218 
+               C 218,232 216,250 226,274 
+               C 236,274 242,260 245,245 
+               C 246,238 244,228 238,222 Z" 
+            fill="url(#waterFlow)" />
+      
+      <!-- Vivid Light-Blue Inner Stream Reflection -->
+      <path d="M 230,226 C 224,240 225,255 230,268" 
+            stroke="#BAE6FD" stroke-width="4" stroke-linecap="round" fill="none" />
+    </g>
+  </g>
+
+  <!-- ==================== TYPOGRAPHY ==================== -->
+  <g id="typography">
+    <!-- Top Line: DRAIN CLEANING -->
+    <text x="250" y="394" 
+          text-anchor="middle"
+          font-family="'Outfit', 'Impact', 'Arial Black', -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="44" 
+          font-weight="900" 
+          letter-spacing="0.5" 
+          fill="#071933">
+      DRAIN CLEANING
+    </text>
+
+    <!-- Bottom Line: — EXPERT — with Tapered Accent Wings -->
+    <!-- Left Wing (Tapered Wedge) -->
+    <polygon points="35,431 150,434 150,438 35,431" fill="#0284C7" />
+
+    <!-- Word: EXPERT -->
+    <text x="250" y="443" 
+          text-anchor="middle"
+          font-family="'Outfit', 'Impact', 'Arial Black', -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="36" 
+          font-weight="900" 
+          letter-spacing="8" 
+          fill="#0284C7">
+      EXPERT
+    </text>
+
+    <!-- Right Wing (Tapered Wedge) -->
+    <polygon points="465,431 350,434 350,438 465,431" fill="#0284C7" />
+  </g>
+</svg>
